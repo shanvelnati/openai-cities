@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_OPEN_CITIES_A2DF8 }}'
           channelId: live
           projectId: open-cities-a2df8
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
